@@ -39,7 +39,7 @@ def main_menu():
         print("2. List books")
         print("3. Remove book")
         print("4. quit")
-        choice = input("Enter your choice (1-3)")
+        choice = input("Enter your choice (1-4)")
         if choice == "1":
             add_book()
         elif choice == "2":
