@@ -3,14 +3,15 @@ books.append("The Count of Monte Cristo")
 books.append("Too Late")
 books.append("The Housemaid")
 print(books)
-""" each book needs to be a dict with title, author, & years stored in list called library """
+
+""" sample library """
 library = [
     {"title": "The Count of Monte Cristo", "author": "Alexandre Dumas", "year": 1844},
     {"title": "Too Late", "author": "Colleen Hoover", "year": 2020},
     {"title": "The Housemaid", "author": "Freida McFadden", "year": 2021}
 ]
 
-""" main menu: options like add, remove, list, search, sort, quit"""
+""" main menu: """
 def add_book():
     title = input("Whats the title?")
     author = input("Whats the author?")
